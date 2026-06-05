@@ -392,17 +392,53 @@ span {
     margin: 5px auto;
 }
 
-footer{
-    margin-top: 1rem;
-    padding: 2rem 0;
+.footer {
+    background: #080808;
     text-align: center;
-    border-top: 1px solid rgba(224, 5, 5, 0.3);
+    padding: 5rem 10%;
+    border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-footer p {
-    margin-top: 1rem;
-    color: rgba(255, 255, 255, 0.718);
+.footer-logo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(224, 5, 5);
+    margin-bottom: 2rem;
+}
+
+.footer-nav {
+    margin-bottom: 2rem;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.footer-nav a:hover {
+    color: rgb(224, 5, 5);
+}
+
+.footer-text {
+    color: #bdbdbd;
     font-size: 1.4rem;
+    max-width: 500px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+.footer-bottom p {
+    color: #888;
+    font-size: 1.3rem;
 }
 
 #toast{
