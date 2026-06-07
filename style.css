@@ -104,17 +104,17 @@ span {
     font-size: 1.5rem;
 }
 
-.typing-text{
+.typing-text {
     color: rgb(224, 5, 5);
     font-weight: 600;
 }
 
-.typing-text::after{
+.typing-text::after {
     content: "|";
     animation: blink 0.9s infinite;
 }
 
-@keyframes blink{
+@keyframes blink {
     50%{
         opacity: 0;
     }
@@ -276,12 +276,12 @@ span {
     transition: width 1.5s ease;
 }
 
-.contact{
+.contact {
     min-height: 100vh;
     padding-top: 10rem;
 }
 
-.contact h1{
+.contact h1 {
     text-align: center;
     margin-bottom: 5rem;
 }
@@ -303,18 +303,18 @@ span {
     padding-right: 3rem;
 }
 
-.contact-info h3{
+.contact-info h3 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
     margin-top: 3rem;
 }
 
-.contact-info p{
+.contact-info p {
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
 }
 
-.contact-info a{
+.contact-info a {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -325,16 +325,16 @@ span {
     margin-bottom: 1.5rem;
 }
 
-.contact-info a:hover{
+.contact-info a:hover {
     color: rgb(224, 5, 5);
 }
 
-.contact-info i{
+.contact-info i {
     color: rgb(224, 5, 5);
     font-size: 2rem;
 }
 
-.contact-form{
+.contact-form {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -342,7 +342,7 @@ span {
 }
 
 .contact-form input,
-.contact-form textarea{
+.contact-form textarea {
     width: 100%;
     padding: 1.2rem;
     background: transparent;
@@ -352,12 +352,12 @@ span {
     outline: none;
 }
 
-.contact-form textarea{
+.contact-form textarea {
     height: 180px;
     resize: none;
 }
 
-.contact-form button{
+.contact-form button {
     width: 150px;
     align-self: center;
     margin-top: 1rem;
@@ -371,13 +371,13 @@ span {
     transition: 0.3s ease;
 }
 
-.contact-form button:hover{
+.contact-form button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(224, 5, 5, 0.5);
 }
 
 .contact-form input:focus,
-.contact-form textarea:focus{
+.contact-form textarea:focus {
     box-shadow: 0 0 15px rgba(224, 5, 5, 0.5);
 }
 
@@ -441,7 +441,7 @@ span {
     font-size: 1.3rem;
 }
 
-#toast{
+#toast {
     position: fixed;
     top: -100px;
     left: 50%;
@@ -456,7 +456,7 @@ span {
     z-index: 1000;
 }
 
-#toast.show{
+#toast.show {
     opacity: 1;
     top: 30px;
 }

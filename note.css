@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     background: black;
     color: white;
     min-height: 100vh;
@@ -17,24 +17,24 @@ body{
     padding: 2rem;
 }
 
-.container{
+.container {
     max-width: 800px;
     text-align: center;
 }
 
-.container h1{
+.container h1 {
     font-size: 4rem;
     color: rgb(224, 5, 5);
     margin-bottom: 2rem;
 }
 
-.container p{
+.container p {
     font-size: 1.8rem;
     line-height: 1.8;
     color: white;
 }
 
-.back-btn{
+.back-btn {
     display: inline-block;
     margin-top: 3rem;
     padding: 1rem 2.5rem;
@@ -44,7 +44,7 @@ body{
     transition: .3s ease;
 }
 
-.back-btn:hover{
+.back-btn:hover {
     background: rgb(224, 5, 5);
     color: black;
     box-shadow: 0 0 20px rgb(224, 5, 5);
